@@ -168,6 +168,30 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+li {
+  font-size: 1.6rem;
+}
+.top-header {
+  border-bottom: 1px dashed #333;
+}
+nav {
+  width: 72%;
+  margin: 2% auto 0;
+}
+.top-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.left {
+  margin-right: auto;
+}
+.right {
+  padding-left: 20px;
+}
+.header-image {
+  margin: 0 auto;
+  display: block;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
