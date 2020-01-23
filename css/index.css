@@ -200,6 +200,9 @@ nav {
   padding-bottom: 1%;
   border-bottom: 2px dashed silver;
 }
+.top-mobile-text {
+  display: none;
+}
 @media (max-width: 500px) {
   .top-nav .left {
     display: none;
@@ -211,6 +214,7 @@ nav {
     padding: 2% 0 4%;
   }
   .top-mobile-text {
+    display: block;
     padding-top: 3%;
     text-align: center;
   }
