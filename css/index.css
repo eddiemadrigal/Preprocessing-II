@@ -192,6 +192,12 @@ nav {
   margin: 0 auto;
   display: block;
 }
+.header-article {
+  width: 72%;
+  margin: 1% auto 3%;
+  padding-bottom: 1%;
+  border-bottom: 1px dashed #333;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
