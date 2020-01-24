@@ -21,15 +21,15 @@
     <section class="top-header">
       <nav>
         <h2 class="top-mobile-text">Fun Bus</h2>
-          <ul class="top-nav">
-            <li class="left">
-              <h2>Fun Bus</h2>
-            </li>
-            <li class="right">Home</li>
-            <li class="right">About Us</li>
-            <li class="right">Blog</li>
-            <li class="right">Contact</li>
-          </ul>
+        <ul class="top-nav">
+          <li class="left">
+            <h2>Fun Bus</h2>
+          </li>
+          <li class="right">Home</li>
+          <li class="right">About Us</li>
+          <li class="right">Blog</li>
+          <li class="right">Contact</li>
+        </ul>
       </nav>
     </section>
     <section>
@@ -109,6 +109,74 @@
       </div>
     </section>
   </div><!-- container -->
+
+  <section class="contact-form" id="contact">
+
+    <form method="post">
+
+      <section>
+        <h2>Contact information</h2>
+
+        <p>
+          <label for="name">
+            <span>Name: </span>
+          </label>
+          <input type="text" id="name" name="username" required>
+        </p>
+        <p>
+          <label for="mail">
+            <span>E-mail: </span>
+          </label>
+          <input type="email" id="mail" name="usermail" required>
+        </p>
+        <p>
+          <label for="phone">
+            <span>Phone: </span>
+          </label>
+          <input type="email" id="phone" name="usermail">
+        </p>
+        <p>
+          <label for="message">
+            <span class="message">Message: </span>
+          </label>
+          <textarea name="message" id="message" cols="40" rows="6"></textarea>
+        </p>
+      </section>
+
+      <div class="package-info">
+        <section>
+          <p>Package: </p>
+        </section>
+        <section>
+          <ul class="package-info">
+            <li>
+              <label for="ace">
+                <input type="radio" id="ace" name="title" value="A">
+                Ace Package
+              </label>
+            </li>
+            <li>
+              <label for="family">
+                <input type="radio" id="family" name="title" value="K">
+                Family Package
+              </label>
+            </li>
+            <li>
+              <label for="private">
+                <input type="radio" id="private" name="title" value="Q">
+                Private Get-A-Way Package
+              </label>
+            </li>
+          </ul>
+        </section>
+      </div class="package-info">
+
+      <section>
+        <p> <div class="info btn">Request Information</div> </p>
+      </section>
+    </form>
+
+  </section>
 
   <footer class="footer">
     <p>Copyright Fun Bus 2018</p>
