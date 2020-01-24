@@ -126,6 +126,17 @@ form section {
 .package-info {
   display: flex;
   justify-content: center;
+
+  @media @mobile {
+    flex-direction: column;
+  }
+
+  li {
+    @media @mobile {
+      padding: 2%;
+    }
+  }
+
 }
 
 .message {
@@ -140,7 +151,22 @@ form section {
   border-radius: 10px;
   text-align: center;
   font-size: 1.5rem;
-  max-width: 30%;
+  width: 30%;
   margin: 0 auto;
+
+  @media @mobile {
+    width: 90%;
+  }
+
 }
 
+.textarea-size {
+  width: 25em;
+  height: 7em;
+
+  @media @mobile {
+      width: 90%;
+      height: 7em;
+  }
+
+}
