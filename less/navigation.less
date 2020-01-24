@@ -1,1 +1,65 @@
 // Navigation Styles here
+
+.top-header {
+    width: 100%;
+    border-bottom: 2px dashed silver;
+    background: @sandy-beach;
+}
+
+nav {
+    width: 72%;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.left {
+    margin-right: auto;
+}
+
+.right {
+    padding-left: 20px;
+}
+
+.header-image {
+    margin: 0 auto;
+    display: block;
+}
+
+.header-article {
+    width: 72%;
+    margin: 1% auto 3%;
+    padding-bottom: 1%;
+    border-bottom: 2px dashed silver;
+}
+
+.top-mobile-text {
+        display: none;
+    }
+
+@media @mobile {
+    .top-nav .left {
+        display: none;
+    }
+
+    .top-nav {
+        justify-content: space-evenly;
+    }
+
+    .right {
+        padding: 2% 0 4%;
+    }
+
+    .top-mobile-text {
+        display: block;
+        padding-top: 3%;
+        text-align: center;
+    }
+}
+
+
+
