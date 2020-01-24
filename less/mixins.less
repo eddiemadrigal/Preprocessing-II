@@ -1,1 +1,26 @@
 // Mixins in here
+
+// Animations
+// animations
+
+.keyframes(@name; @arguments) {
+	@keyframes @name { @arguments(); }
+}
+
+.animation(@arguments) {
+	animation: @arguments;
+}
+
+/* example */
+.slide-in {
+	
+	.keyframes(slideIn;{
+        0% { margin-left: -500px; color: red; }
+        30% { margin-left: 400px; color: green; }
+        60% { margin-left:  -200; color: yellow; }
+        100% { margin-left: 0; color: black;}
+		});
+
+	.animation(slideIn 3s linear)
+
+}
